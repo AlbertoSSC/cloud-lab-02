@@ -30,4 +30,4 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: npm run deploy --r git@github.com:AlbertoSSC/cloud-lab-02.git
+        run: npm run deploy -- -r git@github.com:AlbertoSSC/cloud-lab-02.git
